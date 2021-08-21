@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
         <link rel="stylesheet" href="assets/css/style.css">
-        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+       
         <link href="admin.css" rel="stylesheet">
         
         
@@ -36,17 +36,17 @@
     </div>
     </header>
 
+    <!-- Side bar -->
     <div id="wrapper">
-
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                <li class="sidebar-brand">
+                <li class="sidebar-brand" id="create">
                     <a href="#">
                         Create
                     </a>
                 </li>
-                <li>
+                <li id="analyzBtn">
                     <a href="#">Dashboard</a>
                 </li>
                 <li>
@@ -70,15 +70,62 @@
             </ul>
         </div>
         <!-- /#sidebar-wrapper -->
-
-      
-
     </div>
-    <!-- /#wrapper -->
+
+    <!-- Create a Quiz -->
+    <div id="nameModal" class="modal">
+    <div class="modal-content">
+      <p>Quizz name</p> 
+      <p>__________________</p>
+      <input type="text" class="form-control" id="quizName"  placeholder="Enter name for quiz">
+      <button class="btn btn-primary" id="nextBtn1">NEXT</button>
+    </div>
+    </div>
+
+    <div id="questionModal" class="modal">
+        <div class="modal-content">
+          <p>Question</p> 
+          <p>__________________</p>
+          <textarea class="form-control" id="question" rows="3" placeholder="Enter question content"></textarea>
+          <textarea class="form-control" id="answer" rows="4" placeholder="Enter answer"></textarea>
+          <button class="btn btn-success" id="saveBtn">SAVE</button>  
+          <button class="btn btn-primary" id="nextBtn2">NEXT</button>
+        </div>
+    </div>
+
+    <!-- Data Analyz -->
+    <div id="analyzModal" class="modal">
+        <div class="modal-content">
+          <p>Number of quiz .......</p> 
+          <p>Number of user .......</p>
+        </div>
+    </div>
+
+
+    <!-- View my quiz -->
+    <div class="content">
+    <div class="viewQuiz">
+    <img id="quizImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc0FzOzIO_6btbDBK9uvKpkYwlmbZfWX9MLQ&usqp=CAU" with=100% height="90%">
+    <p class="title">Quiz name</p>
+    </div>
+    </div>
+
+    <div id="viewQuizModal" class="modal">
+        <div class="modal-content">
+          <p>Name</p> 
+          <p>Question</p>
+          <p>A</p>
+          <p>B</p>
+          <p>C</p>
+          <p>D</p>
+        </div>
+    </div>
+
+  </div>
   </body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-  <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+
   <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
   <script type="text/javascript" src="admin.js"></script>
 </html>
