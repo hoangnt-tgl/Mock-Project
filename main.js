@@ -3,6 +3,7 @@ $("#menu-toggle").click(function (e) {
     $("#wrapper").toggleClass("toggled");
 });
 
+
 var modal = document.getElementById("nameModal");
 var Qmodal = document.getElementById("questionModal");
 var question = document.getElementById("question");
@@ -13,12 +14,6 @@ var viewQuizModal = document.getElementById("viewQuizModal");
 var createBtn = document.getElementById("createBtn");
 var nextBtn1 = document.getElementById("nextBtn1");
 var nextBtn2 = document.getElementById("nextBtn2");
-
-
-// Control view quiz
-var viewBtn = document.getElementById("quizImg");
-
-
 
 // When the user clicks the button, open the modal 
 createBtn.onclick = function () {
@@ -36,6 +31,9 @@ nextBtn2.onclick = function () {
 }
 
 
+
+// Control view quiz
+var viewBtn = document.getElementById("nameA");
 
 viewBtn.onclick = function () {
     viewQuizModal.style.display = "block";
