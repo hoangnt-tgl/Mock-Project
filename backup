@@ -1,0 +1,123 @@
+bakcup file question config
+    <!-- QUESTION DATA -->
+                <!-- <div class="border">
+                    <div class="question bg-white p-3 border-bottom">
+                        <div class="d-flex flex-row justify-content-between align-items-center mcq">
+                            <h4 id="question-set-name">MCQ Quiz</h4><span id="current-question-number">(5 of 20)</span>
+                        </div>
+                    </div>
+                    <div class="question bg-white p-3 border-bottom">
+                       
+                        <div class="d-flex flex-row align-items-center question-title">
+                            <h3 class="text-danger">Q.</h3>
+                            <h5 id="1" class="mt-1 ml-2 question-name"> Which of the following country has largest
+                                population?</h5>
+                            <div>
+                               
+                                <button class="btn btn-warning edit-true">Sửa</button>
+                                <button style="display:none" class="btn btn-danger erase-true">Xóa</button>
+                                <button style="display:none" class="btn btn-success set-true">Duyệt</button>
+                            </div>
+                        </div>
+                       
+                        <div class="ans ml-2">
+                            <label class="radio"> <input type="radio" name="brazil" value="brazil"> 
+                                <span>Brazil</span>
+                            </label>
+                            <div style="display:inline ; float: right">
+                                <button class="btn btn-warning edit-true-ans">Sửa</button>
+                                <button style="display:none" class="btn btn-danger erase-true-ans">Xóa</button>
+                                <button style="display:none" class="btn btn-success set-true-ans">Duyệt</button>
+                            </div>
+                        </div>
+                        <div class="ans ml-2">
+                            <label class="radio"> <input type="radio" name="Germany" value="Germany">
+                                <span>Germany</span>
+                            </label>
+                            <div style="display:inline ; float: right">
+                                <button class="btn btn-warning edit-true-ans">Sửa</button>
+                                <button style="display:none" class="btn btn-danger erase-true-ans">Xóa</button>
+                                <button style="display:none" class="btn btn-success set-true-ans">Duyệt</button>
+                            </div>
+                        </div>
+                        <div class="ans ml-2">
+                            <label class="radio"> <input type="radio" name="Indonesia" value="Indonesia">
+                                <span>Indonesiaaaaaaaaaaaa</span>
+                            </label>
+                            <div style="display:inline ; float: right">
+                                <button class="btn btn-warning edit-true-ans">Sửa</button>
+                                <button style="display:none" class="btn btn-danger erase-true-ans">Xóa</button>
+                                <button style="display:none" class="btn btn-success set-true-ans">Duyệt</button>
+                            </div>
+                        </div>
+                        <div class="ans ml-2">
+                            <label class="radio"> <input type="radio" name="Russia" value="Russia"> <span>Russia</span>
+                            </label>
+                            <div style="display:inline ; float: right">
+                                <button class="btn btn-warning edit-true-ans">Sửa</button>
+                                <button style="display:none" class="btn btn-danger erase-true-ans">Xóa</button>
+                                <button style="display:none" class="btn btn-success set-true-ans">Duyệt</button>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="ans ml-2">
+                            ĐÁP ÁN: <p class="dap-an" style="display: inline;">B</p>
+                            <div style="display:inline ; float: right">
+                                <button class="btn btn-warning edit-true-ans-truth">Sửa</button>
+                                <button style="display:none" class="btn btn-danger erase-true-ans-truth">Xóa</button>
+                                <button style="display:none" class="btn btn-success set-true-ans-truth">Duyệt</button>
+                            </div>
+                        </div>
+
+                    
+                    </div>
+
+                </div>
+                <hr> -->
+                <!-- END QUESTION DATA -->
+                <!-- <div class="border">
+                    <div class="question bg-white p-3 border-bottom">
+                        <div class="d-flex flex-row justify-content-between align-items-center mcq">
+                            <h4 id="question-set-name">MCQ Quiz</h4><span id="current-question-number">(5 of 20)</span>
+                        </div>
+                    </div>
+                    <div class="question bg-white p-3 border-bottom">
+                       
+                        <div class="d-flex flex-row align-items-center question-title">
+                            <h3 class="text-danger">Q.</h3>
+                            <h5 id="2" class="mt-1 ml-2 question-name">Which of the following country has largest
+                                population?</h5>
+                            <div>
+                                
+                                <button class="btn btn-warning edit-true">Sửa</button>
+                                <button style="display:none" class="btn btn-danger erase-true">Xóa</button>
+                                <button style="display:none" class="btn btn-success set-true">Duyệt</button>
+                            </div>
+                        </div>
+                       
+ 
+                        <div class="ans ml-2">
+                            <input type="text" name="answer" value="Enter your answer">
+                            <div style="display:inline ; float: right">
+                                <button class="btn btn-warning edit-true">Sửa</button>
+                                <button style="display:none" class="btn btn-danger erase-true">Xóa</button>
+                                <button style="display:none" class="btn btn-success set-true">Duyệt</button>
+                            </div>
+                        </div>
+                        <HR>
+                        <div class="ans ml-2">
+                            ĐÁP ÁN: B
+                            <div style="  float: right">
+                                <button class="btn btn-warning edit-true-ans-truth">Sửa</button>
+                                <button style="display:none" class="btn btn-danger erase-true-ans-truth">Xóa</button>
+                                <button style="display:none" class="btn btn-success set-true-ans-truth">Duyệt</button>
+                            </div>
+                        </div>
+
+                       
+                    </div>
+
+                </div>
+
+                <hr> -->
+                
