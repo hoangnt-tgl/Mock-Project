@@ -1,0 +1,46 @@
+[ 
+    {
+        "id": "1",
+        "numberOfQuestion":"20",
+        "questionSet": "haha",
+        "question": "1 + 1 = ?",
+        "type": "text",
+        "result": "2",
+        "mark": "1"
+    },
+    {
+        "id": "2",
+        "numberOfQuestion":"20",
+        "questionSet": "haha",
+        "question": "1 + 2 = ?",
+        "type":  "radio",
+        "radio1": "1",
+        "radio2": "2",
+        "radio3": "3",
+        "radio4": "4",
+        "result": "3",
+        "mark": "1"
+    },
+    {
+        "id": "3",
+        "numberOfQuestion":"20",
+        "questionSet": "haha",
+        "question": "1 + 2 = ?",
+        "type":  "radio",
+        "radio1": "1",
+        "radio2": "2",
+        "radio3": "3",
+        "radio4": "4",
+        "result": "3",
+        "mark": "1"
+    },
+    {
+        "id": "4",
+        "numberOfQuestion":"20",
+        "questionSet": "haha",
+        "question": "1 + 1 = ?",
+        "type": "text",
+        "result": "2",
+        "mark": "1"
+    }
+]

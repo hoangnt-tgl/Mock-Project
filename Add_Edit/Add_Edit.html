@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="body.css">
+</head>
+
+<body>
+
+    <!-- BODY START -->
+    <div class="container mt-5">
+        <div class="d-flex justify-content-center row">
+            <div class="col-md-8 col-lg-8">
+            
+            </div>
+
+
+
+
+
+
+
+            <!-- TIMER AND CHOICE -->
+            <div class="col-md-4 col-lg-4">
+                <div class="border">
+                    <div id="timer">
+                        <div id="timer" class="question bg-white p-3 border-bottom">
+                            <div class="d-flex flex-row justify-content-between align-items-center mcq">
+                                <div> Time Remaining:
+
+                                    <input type="time" id="startTime" readonly>
+                                    <button id="edit-time-remaining" class="btn btn-warning">Sửa</button>
+                                    <!-- //   <button style="display:none"  id="erase-time-remaining" class="btn btn-danger">Xóa</button> -->
+                                    <button style="display:none" id="set-time-remaining"
+                                        class="btn btn-success">Duyệt</button>
+
+                                </div>
+                            </div>
+                            <hr>
+                            <!-- <form class="question-choice">
+                                <button class="question-button" type="button"> 1 </button>
+                            </form>
+                            <form class="question-choice">
+                                <button class="question-button" type="button"> 2 </button>
+                            </form> -->
+                            <div class="display-question-button">
+                            
+                                <!-- <form class="question-choice">
+                                    <button class="question-button" type="button"> 1 </button>
+                                </form>
+                                <form class="question-choice">
+                                    <button class="question-button" type="button"> 2 </button>
+                                </form> -->
+                                
+                            </div>
+                            <hr>
+                            <button class="btn btn-success style1 open-add">Thêm</button>
+                            <form class="them-dap-an" style="display:none">
+                                <input style="width: 100%; display:block;" type="text" placeholder="Nhập câu hỏi">
+
+                                  <input type="radio" id="trac-nghiem" name="fav_language" value="trac-nghiem">
+                                  <label for="trac-nghiem">Trắc nghiệm</label>
+                                  <input type="radio" id="tu-luan" name="fav_language" value="tu-luan">
+                                  <label for="tu-luan">Tự luận</label>
+                                 
+
+                                <input class="dap-an-cuoi" style="width: 100%;" type="text" placeholder="Đáp án">
+
+                            </form>
+                            <button style="display:none" class="btn btn-info style1 nut-them" >Thêm
+                                đáp án</button>
+                            <hr>
+                            <button class="btn btn-primary style1 finish-config">Finish</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  END TIMER AND CHOICE -->
+    </div>
+    </div>
+
+    <!-- END BODY -->
+
+    <!-- SCRIPT -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="Add_Edit.js"></script>
+</body>
+
+</html>
